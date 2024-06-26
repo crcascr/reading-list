@@ -1,70 +1,40 @@
-# Getting Started with Create React App
+# Lista de lectura
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Desarrollo de la prueba técnica de creación de una lista de lectura usando [React](https://facebook.github.io/react/), [Tailwind CSS](https://tailwindcss.com/) y [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+Esta prueba implementa manejo de interacciones con el usuario, gestión de estado y filtrado de datos, todo esto teniendo una correcta estructuración del codigo.
 
-In the project directory, you can run:
+## Funcionalidades
 
-### `npm start`
+- Visualización de libros disponibles.
+- Lista de lectura.
+- Filtrado de libros por género.
+- Sincronización de estado entre libros disponibles y libros en la lista de lectura.
+- Persistencia de datos usando localStorage.
+- Sincronización entre pestañas usando window storage.
+- Busqueda de libros por titulo.
+- Filtrado de libros por número de páginas.
+- Diseño responsive.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Librerias utilizadas
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- [React](https://facebook.github.io/react/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [Create React App](https://github.com/facebook/create-react-app)
+- [Lucide React](https://lucide.dev/)
+- [React Lazy Load Image Component](https://github.com/Aljullu/react-lazy-load-image-component)
+- [React Helmet Async](https://github.com/staylor/react-helmet-async)
 
-### `npm test`
+## Instalación
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- Para ejecutar este proyecto localmente es necesario tener instalado [nodeJS](https://nodejs.org/en), [git](https://git-scm.com/) y [npm](https://npmjs.com/).
+- Para instalar el proyecto en el directorio actual es necesario ejecutar el comando `npm install`.
+- Inicia el proyecto usando el comando `npm start`.
 
-### `npm run build`
+## Reconocimientos
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Este proyecto es parte de las [pruebas técnicas de programación](https://github.com/midudev/pruebas-tecnicas) subidas por [Miguel Ángel Durán AKA @midudev](https://twitter.com/midudev), esta particularmente esta basada en una [prueba real para Juniors](https://discord.com/channels/741237973663612969/848944161448132628/1127729621744500806).
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Contribuciones
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Si quieres contribuir puedes hacerlo en el repositorio de [pruebas técnicas](https://github.com/midudev/pruebas-tecnicas) o haciendo un Pull Request.
