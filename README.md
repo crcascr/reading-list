@@ -4,6 +4,10 @@ Desarrollo de la prueba técnica de creación de una lista de lectura usando [Re
 
 Esta prueba implementa manejo de interacciones con el usuario, gestión de estado y filtrado de datos, todo esto teniendo una correcta estructuración del codigo.
 
+## Resultado
+
+Puedes ver el resultado del desarrollo de esta prueba en el siguiente [enlace](https://reading-list-bqfj.vercel.app/).
+
 ## Funcionalidades
 
 - Visualización de libros disponibles.
